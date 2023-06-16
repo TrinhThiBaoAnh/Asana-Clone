@@ -1,0 +1,63 @@
+.login_box {
+    width: 1150px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 4px 22px -8px #0004;
+    display: flex;
+    overflow: hidden;
+}
+.login_box .left{
+    width: 41%;
+    height: 100%;
+    padding: 25px 25px;
+    
+  }
+  .login_box .right{
+    width: 59%;
+    height: 100%  
+  }
+  .right {
+	background: url('https://img.freepik.com/free-vector/gradient-brain-background_23-2150491599.jpg?w=1380&t=st=1686899684~exp=1686900284~hmac=e3f6b69a4307a06f2fa29aef328b7d668b78174ede94f46840ca5772ee553f55');
+    background-size:cover;
+    background-repeat: no-repeat;
+	color: #fff;
+	position: relative;
+}
+
+.right .right-text{
+  height: 100%;
+  position: relative;
+  transform: translate(0%, 45%);
+}
+.right-text h2{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+}
+.right-text h5{
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.name-page{
+    font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+}
+.left{
+	background:  #3e3ea7;
+    text-align: center;
+}
